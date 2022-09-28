@@ -41,6 +41,9 @@ public class SillyTest {
 
         Silly sample2 = new Silly("first", "second");
         assertEquals("firstsecond", sample2.name);
+
+        Silly sample3 = new Silly(3);
+        assertEquals("Silly #3", sample3.name);
     }
 
     @Test(timeout = 50)
